@@ -22,6 +22,7 @@ const displaySearchResult = books => {
     books.forEach(book => {
 
         const makeDiv = document.createElement('div');
+        makeDiv.classList.add('styleBook');
 
         if (book.title.length === 0) {
 
